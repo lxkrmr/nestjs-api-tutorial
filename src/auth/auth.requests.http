@@ -1,0 +1,5 @@
+### sign up
+POST http://localhost:3000/auth/signup
+
+### loggin 
+POST http://localhost:3000/auth/login
