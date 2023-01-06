@@ -1,5 +1,12 @@
 ### sign up
 POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "foo@bar.de",
+    "password": "topSecret",
+    "id": 1
+}
 
 ### loggin 
 POST http://localhost:3000/auth/login
